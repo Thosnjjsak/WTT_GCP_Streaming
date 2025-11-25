@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+TOPIC="wtt-live"
+PROJECT="project-36a10255-b110-4164-8f8"
+
+# publish the sample JSON as base64-encoded pubsub message
+DATA=$(cat "cloudrun/Publish on Pub&Sub.json" | openssl base64 -A)
+
+gcloud pubsub topics publish "$TOPIC" \
+  --project "$PROJECT" \
+  --message="$DATA"
