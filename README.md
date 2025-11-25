@@ -11,7 +11,8 @@
 - **infra/** – notes for wiring Pub/Sub, Eventarc, Cloud Run
 
 ## High-level pipeline
-<img width="1600" height="1000" alt="WTT_streaming_architecture" src="https://github.com/user-attachments/assets/e87b5baf-1fad-4138-8f55-60a8a2c74d59" />
+
+<img width="1536" height="1024" alt="ChatGPT Image Nov 25, 2025, 12_53_47 PM" src="https://github.com/user-attachments/assets/0c6c6413-7d9c-4ce4-9e12-af3318c0be80" />
 
 
 ## Quick map
