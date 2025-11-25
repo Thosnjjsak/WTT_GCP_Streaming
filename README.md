@@ -1,1 +1,1 @@
-# WTT_GCP_Streaming
+# WTT_GCP_Streaming_VertexAI
