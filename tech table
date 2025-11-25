@@ -1,0 +1,7 @@
+| Piece           | Service                         | Where                           |
+| --------------- | ------------------------------- | ------------------------------- |
+| Ingestion topic | Pub/Sub `wtt-live`              | Console → Pub/Sub               |
+| Live scoring    | Cloud Run (Functions Framework) | `cloudrun/`                     |
+| Feature shaping | `live_2_transform.ipynb`        | Notebooks                       |
+| Model           | Vertex AI Endpoint              | Console → Vertex AI → Endpoints |
+| Storage         | BigQuery                        | `wtt_ml.live_preds`             |
