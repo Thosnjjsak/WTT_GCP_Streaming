@@ -11,7 +11,8 @@
 - **infra/** – notes for wiring Pub/Sub, Eventarc, Cloud Run
 
 ## High-level pipeline
-![pipeline](./WTT_streaming_architecture.png)
+<img width="1600" height="1000" alt="WTT_streaming_architecture" src="https://github.com/user-attachments/assets/e87b5baf-1fad-4138-8f55-60a8a2c74d59" />
+
 
 ## Quick map
 1. `match_snapshots` (raw) → `live_2_transform` → feature dict
