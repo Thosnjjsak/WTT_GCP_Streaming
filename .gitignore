@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / web (if you add a viewer later)
+node_modules/
+dist/
+
+# Terraform / infra (future)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
